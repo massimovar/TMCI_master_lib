@@ -1,0 +1,42 @@
+Name: Widgets
+Type: FolderType
+Children:
+- File: Dialogs/Dialogs.yaml
+- Name: SuperMotor
+  Type: ObjectLibraryItem
+  Description: {"LocaleId":"","Text":"Description:\nUsage:\nNotes: \nAuthor:\n"}
+  Children:
+  - Name: LibraryItemGuid
+    Type: BaseDataVariableType
+    DataType: Guid
+    Value: "c4cf36c30fe243911699d238a2d9b660"
+  - Name: LibraryItemVersion
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 2
+  - Name: SuperMotor
+    Id: g=b9522db62c1b30f8f5c9d11ffefc6339
+    Supertype: Panel
+    ReferenceType: HasComponent
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: TextBox1
+      Type: TextBox
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 110.0

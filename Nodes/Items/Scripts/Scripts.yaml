@@ -1,0 +1,22 @@
+Name: Scripts
+Type: FolderType
+Children:
+- Name: RuntimeNetLogic1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: LibraryItemGuid
+    Type: BaseDataVariableType
+    DataType: Guid
+    Value: "69cc15b97fb4b4d1b2b49626dec176ea"
+  - Name: LibraryItemVersion
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: RuntimeNetLogic1
+    Id: g=7f9261828b72bac148fb38f499918a9d
+    Supertype: NetLogic
+    ReferenceType: HasComponent
+    Children:
+    - Name: Variable1
+      Type: BaseDataVariableType
+      DataType: Int32
