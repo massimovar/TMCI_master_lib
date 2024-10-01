@@ -3,3 +3,205 @@ Type: FolderType
 Children:
 - File: Scripts/Scripts.yaml
 - File: Widgets/Widgets.yaml
+- Name: DefaultStyleSheet
+  Type: ObjectLibraryItem
+  Children:
+  - Name: LibraryItemGuid
+    Type: BaseDataVariableType
+    DataType: Guid
+    Value: "10d50a895232927ca3a693652705eab3"
+  - Name: LibraryItemVersion
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: DefaultStyleSheet
+    Id: g=c578aedb653dcb2e50d83d4066a28ee6
+    Supertype: StyleSheet
+    Children:
+    - Name: ButtonStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: ButtonStyle
+      - Name: Accent
+        Type: ButtonStyle
+        Children:
+        - Name: Color
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#0fafff"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#075982"
+        - Name: TextColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ffffff"
+      - Name: BorderedRectangular
+        Type: ButtonStyle
+        Children:
+        - Name: Color
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#0fafff"
+        - Name: TextColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ffffff"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#e4e4e4"
+        - Name: BorderWidth
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 5.0
+      - Name: BorderedCircular
+        Type: ButtonStyle
+        Children:
+        - Name: Color
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#0fafff"
+        - Name: TextColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ffffff"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#e4e4e4"
+        - Name: BorderWidth
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 5.0
+        - Name: Radius
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -1.0
+      - Name: Emergency
+        Type: ButtonStyle
+        Children:
+        - Name: Color
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#eb001b"
+        - Name: TextColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ffffff"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#f8e71c"
+        - Name: BorderWidth
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 5.0
+        - Name: Radius
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -1.0
+      - Name: Transparent
+        Type: ButtonStyle
+        Children:
+        - Name: Color
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+        - Name: BorderWidth
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+    - Name: InputBoxStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: InputBoxStyle
+    - Name: SwitchStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: SwitchStyle
+    - Name: GaugeStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: GaugeStyle
+    - Name: NavigationPanelStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: NavigationPanelStyle
+    - Name: ChartStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: ChartStyle
+    - Name: DataListStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: DataListStyle
+    - Name: ToolTipStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: ToolTipStyle
+    - Name: ScrollBarStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: ScrollBarStyle
+    - Name: AccordionStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: AccordionStyle
+    - Name: PieChartStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: PieChartStyle
+    - Name: HistogramChartStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: HistogramChartStyle
+    - Name: LabelStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: LabelStyle
+    - Name: RadioButtonStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: RadioButtonStyle
+    - Name: CheckBoxStyles
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Type: CheckBoxStyle
